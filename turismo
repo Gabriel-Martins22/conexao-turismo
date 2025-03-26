@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexão Turismo - Sua Viagem dos Sonhos</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+        header { background-color: #0073e6; color: white; padding: 20px; font-size: 24px; }
+        .section { padding: 40px; }
+        .destinos, .contato { background-color: #f4f4f4; }
+        .pacotes { background-color: #fff; }
+        .button { background-color: #0073e6; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <header>Conexão Turismo - Conectando Você ao Mundo!</header>
+    
+    <section class="section destinos">
+        <h2>Destinos Incríveis</h2>
+        <p>Descubra lugares paradisíacos e roteiros inesquecíveis.</p>
+        <a href="#" class="button">Ver Destinos</a>
+    </section>
+    
+    <section class="section pacotes">
+        <h2>Pacotes Promocionais</h2>
+        <p>Ofertas imperdíveis para sua próxima viagem!</p>
+        <a href="#" class="button">Ver Pacotes</a>
+    </section>
+    
+    <section class="section contato">
+        <h2>Fale Conosco</h2>
+        <p>Entre em contato para planejar sua viagem dos sonhos.</p>
+        <form>
+            <input type="text" placeholder="Seu Nome" required><br>
+            <input type="email" placeholder="Seu Email" required><br>
+            <textarea placeholder="Sua Mensagem" required></textarea><br>
+            <button type="submit" class="button">Enviar</button>
+        </form>
+    </section>
+    
+    <footer style="background:#0073e6; color:white; padding:10px;">
+        &copy; 2025 Conexão Turismo - Todos os direitos reservados.
+    </footer>
+</body>
+</html>
